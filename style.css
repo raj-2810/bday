@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400&display=swap');
+
+#main-header {
+  border: 1px solid #00f;
+  border-top: 0px;
+  border-bottom: 2px solid #fff;
+  padding-left: 20px;
+
+  position: relative;
+  width: 100%;
+  background: rgba(232, 232, 227, 0.9);
+  top: 0px;
+
+}
+
+#doc{
+  max-width:75%;
+  display:inline-block;
+  border: 1px solid #000;
+  padding: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0,.5);
+  transition:box-shadow 0.5s,background 1s;
+
+}
+#doc:hover{
+  box-shadow: 2px 2px 6px rgba(0, 0, 0,1);
+  background: #aaa;
+}
+
+.profile {
+  list-style: circle;
+  border: 1px solid #d26363;
+  background: #e76ecf;
+  margin-top: 30px;
+  box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+  width: 300px;
+  display: block;
+  padding-left: 20px;
+}
+.profile:hover{
+  box-shadow: 2px 2px 6px rgb(84, 68, 68);
+  background: #e3e187;
+}
+
+article img{
+
+  max-width:400%;
+  height:400px;
+
+}
+body{
+  font-family: 'Open Sans';
+  font-weight: 250 !important;
+  color: #000;
+  padding-left: 20px;
+
+
+
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+#yes {
+  display: block;
+  max-width: 75%;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #d2639e;
+  background: transparent;
+
+
+}
+
+#yess{
+  font-weight:bold;
+  font-size: 50px;
+  color: #111111;
+}
+
